@@ -1,0 +1,31 @@
+{
+  "name": "access_token_server",
+  "version": "1.0.0",
+  "description": "A simple OAuth Token Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grizzlypeaksoftware/access_token_server.git"
+  },
+  "keywords": [
+    "oauth",
+    "token",
+    "server"
+  ],
+  "author": "Shane Larson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grizzlypeaksoftware/access_token_server/issues"
+  },
+  "homepage": "https://github.com/grizzlypeaksoftware/access_token_server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.10"
+  }
+}
