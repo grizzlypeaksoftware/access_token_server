@@ -92,11 +92,7 @@ DataAccess.prototype.DeleteEntity = function(id, collectionName, databaseName, r
 		var collection = database.collection(collectionName);
 		//console.log(id);
  		collection.deleteOne({_id: new that.Mongo.ObjectID(id)}, function(err, results) {
-
-			//console.log(results);
-
 			if (err){
-				//console.log("delete failed");
 				res.send("error", err);
 				//throw err;
 			}
@@ -112,5 +108,3 @@ DataAccess.prototype.DeleteEntity = function(id, collectionName, databaseName, r
 };
 
 module.exports = new DataAccess();
-
-
